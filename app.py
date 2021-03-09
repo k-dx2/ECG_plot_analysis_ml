@@ -55,7 +55,7 @@ def printPeaks(arr, n):
 def read():
 	name=e1.get()
 	data=bioread.read_file(name)
-        total=len(data.channels[0].data)
+	total=len(data.channels[0].data)
         equation.set(str(total))
 	
 	
