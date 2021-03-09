@@ -61,12 +61,12 @@ def read():
 	
 	  
 def call():
- 	 file_name=e1.get()
-         file_length=e2.get()
-         data=bioread.read_file(file_name)
-         n=len(data.channels)
+	file_name=e1.get()
+	file_length=e2.get()
+        data=bioread.read_file(file_name)
+        n=len(data.channels)
          
-         for i in range (n):
+        for i in range (n):
 		print('The name of the Channel',data.channels[i].name)
 		a=data.channels[i].name
 		print('Samples per second',data.channels[i].samples_per_second)
