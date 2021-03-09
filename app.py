@@ -4,7 +4,7 @@ import numpy as np
 from Tkinter import * 
 
 total=0
-ref_size=0
+ref_size= 0
 peaks=[]
 rr=[]
 
